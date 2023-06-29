@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>TestKeystore</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- WSO2 API Manager User Core -->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.user.core</artifactId>-->
+<!--            <version>4.4.0</version>-->
+<!--        </dependency>-->
+        <!-- WSO2 API Manager User API -->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.user.api</artifactId>-->
+<!--            <version>4.4.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.crypto.provider</artifactId>-->
+<!--            <version>1.1.12</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/lib/org.wso2.carbon.crypto.provider-1.1.12.jar</systemPath>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.crypto.api</artifactId>-->
+<!--            <version>1.1.12</version>-->
+<!--            <systemPath>${project.basedir}/lib/org.wso2.carbon.crypto.api-1.1.12.jar</systemPath>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.registry.api</artifactId>-->
+<!--            <version>4.6.3</version>-->
+<!--            <systemPath>${project.basedir}/lib/org.wso2.carbon.registry.api_4.6.3.jar</systemPath>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.registry.core</artifactId>-->
+<!--            <version>4.6.3.1</version>-->
+<!--            <systemPath>${project.basedir}/lib/org.wso2.carbon.registry.core_4.6.3.1.jar</systemPath>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.core</artifactId>-->
+<!--            <version>4.6.3.1</version>-->
+<!--            <systemPath>${project.basedir}/lib/org.wso2.carbon.core_4.6.3.1.jar</systemPath>-->
+<!--        </dependency>-->
+
+
+        <!-- WSO2 API Manager User Tenant Core -->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.user.core.tenant</artifactId>-->
+<!--            <version>4.4.0</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; WSO2 API Manager User Core Service &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.user.core.service</artifactId>-->
+<!--            <version>4.4.0</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.wso2.carbon</groupId>-->
+<!--            <artifactId>org.wso2.carbon.user.core.tenant</artifactId>-->
+<!--            <version>4.4.0</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/lib/<JAR_FILENAME>.jar</systemPath>-->
+<!--        </dependency>-->
+        <!-- Apache Commons Codec -->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.15</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
